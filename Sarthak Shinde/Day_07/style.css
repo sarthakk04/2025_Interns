@@ -1,0 +1,40 @@
+.img {
+  height: 400px;
+  width: 380px;
+  transition: all 3s ease;
+}
+.img:hover {
+  width: 180px;
+  height: 200px;
+}
+.demo {
+  font-size: 70px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.demo:hover {
+  color: blue;
+  font-size: 50px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  border: none;
+  color: white;
+  background: rgb(4, 4, 54);
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(4, 4, 54);
+  border: 2px solid rgb(4, 4, 54);
+}

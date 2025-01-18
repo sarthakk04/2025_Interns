@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 123, 255);
+  position:st;
+  top: 100px;
+}

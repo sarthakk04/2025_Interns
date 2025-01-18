@@ -1,0 +1,21 @@
+.mobile,
+.ipad,
+.slap,
+.nlap,
+.llap {
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .mobile {
+    display: block;
+  }
+}
+
+@media ((min-width: 481px) and (max-width : 768px)) {
+  .ipad {
+    display: block;
+  }
+}
