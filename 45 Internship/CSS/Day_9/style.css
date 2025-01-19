@@ -1,0 +1,74 @@
+*{
+    background-color: gray;  
+}
+
+.car1{
+    background: none;   
+}
+.car2{
+    background: none;   
+}
+.car3{
+    background: none; 
+}
+
+.Track1{
+    height: 250px;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation:  sport1 3s forwards;
+    background-color: black;
+   
+}
+.Track2{
+    height: 250px;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: sport2 3s forwards;
+    animation-delay: 2s;
+    background-color: black;
+    
+}
+
+.Track3{
+    height: 250px;
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: sport3 3s forwards;
+    animation-delay: 5s;
+    background-color: black;
+   
+}
+
+@keyframes sport1 {
+    0%{
+        transform: translateX(5%);
+    }
+    100%{
+        transform: translateX(80%);
+    }  
+}
+
+@keyframes sport2 {
+    0%{
+        transform: translateX(5%);
+    }
+    100%{
+        transform: translateX(80%); 
+    }  
+}
+
+@keyframes sport3 {
+    0%{
+        transform: translateX(5%);
+    }
+    100%{
+        transform: translateX(80%);
+    }
+}
+
+
+

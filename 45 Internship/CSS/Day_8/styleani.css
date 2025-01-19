@@ -1,0 +1,41 @@
+
+div {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: relative;
+  animation: demo 7s;
+   
+}
+
+@keyframes demo {
+  0% {
+    top: 10px;
+    left: 0px;
+  }
+  25% {
+    top: 10px;
+    left: 88%;
+    background-color: yellow;
+  }
+  50% {
+    top: 430px;
+    left: 0px;
+    background-color: green;
+  }
+  75% {
+    top: 10px;
+    left: 88px;
+    background-color: blue;
+  }
+  100% {
+    top: 430px;
+    left: 0px;
+    background-color: black;
+  }
+}
+
+  
+
+  
+  
