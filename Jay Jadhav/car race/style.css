@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+}
+
+.car1{
+    size: 50px;
+    border-bottom: 3px rgb(252, 243, 0) solid;
+    background-color: black;
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    position: absolute;
+}
+img{
+    width: 342px;
+    animation: whitecar 3s forwards ease;
+    position: relative;
+}
+
+.img2{
+    transform: rotate(180deg);
+    animation-delay: 3s;
+}
+.img3{
+    transform: rotate(180deg);
+    animation-delay: 6s;
+}
+.car2{
+    border-bottom: 3px rgb(252, 243, 0) solid;
+    background-color: black;
+}
+.car3{
+    background-color: black;
+    
+}
+
+@keyframes whitecar{
+    0%{
+    left:0% 
+    }
+    100%{
+        left:73%;
+    }
+}
