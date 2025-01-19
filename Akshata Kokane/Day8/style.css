@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:beige;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.heading h1{
+    font-size:larger;
+    margin: 0;
+    color: brown;
+}
+.heading h3{
+    font-size: medium;
+    margin: 5px 0;
+    color: black;
+    text-transform: uppercase;
+}
+.heading h5{
+    font-size: small;
+    margin: 0;
+    color:crimson;
+}
+
+.race-track {
+    position: relative;
+    width: 90%;
+    height: 300px;
+    background:grey;
+    border: 5px solid white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.track-line{
+    width: 100%;
+    height: 5px;
+    background: white;
+    
+}
+
+
+.row {
+    position: relative;
+    width: 100%;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+}
+
+.car {
+    position: absolute;
+    width: 80px; 
+    height: auto; 
+    animation: moveCar 4s linear infinite;
+}
+
+.car1 {
+    animation-delay: 0s;
+}
+
+.car2 {
+    animation-delay: 1s;
+}
+
+.car3 {
+    animation-delay: 2s;
+}
+
+
+
+@keyframes moveCar {
+    0% {
+        left: 0%; 
+    }
+    100% {
+        left: 100%;
+    }
+}

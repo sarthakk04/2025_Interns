@@ -1,0 +1,71 @@
+/* Styling the cards */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.card-body p {
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  .card-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .card {
+      width: 100%;
+      max-width: 400px;
+  }
+
+  .card img {
+      height: 150px; 
+  }
+}

@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    height:100vh;
+    position: relative;
+}
+
+
+.box{
+    width:200px;
+    height:200px;
+    background-color: red;
+    border:2px black solid;
+    cursor: pointer;
+    position:absolute;
+    top:20px;
+    left:0;
+    transition: left 2s ease;
+}
+
+body:hover .box{
+    background-color: yellow;
+    border-color: red;
+    left:80%;
+}

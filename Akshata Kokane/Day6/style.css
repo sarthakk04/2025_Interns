@@ -1,0 +1,28 @@
+button{
+     background-color:#0056b3;
+     color:white;
+     width:500px;
+}
+
+td{
+    text-align: center;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+
+table{
+    border-collapse: collapse;
+    border:1px solid #ccc;
+    width:500px;
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}

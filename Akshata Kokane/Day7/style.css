@@ -1,0 +1,53 @@
+/*img{
+    height:400px;
+    width: 380px;
+    
+    transition: all 3s ease;
+}
+
+img:hover{
+    filter: grayscale(0%) drop-shadow(8px 8px 10px grey);
+    border-radius: 10px;
+    width:180px;
+    height:200px
+    
+}
+
+.demo{
+    font-size: 70px;
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+
+.demo:hover{
+    color:darkmagenta;
+    font-size: 50px;
+}*/
+
+
+
+body{
+    margin:0;
+    height: 100vh;
+    background-color: bisque;
+  
+   
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border:2px black solid;
+    position: absolute;
+    left:0;
+    transition: left 2.5s ease;
+
+}
+
+body:hover .box{
+    left:90%;
+    background-color: yellow;
+    border:2px red solid;
+}
