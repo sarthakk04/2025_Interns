@@ -1,0 +1,93 @@
+.custom-carousel {
+    max-height: 500px; 
+    overflow: hidden; 
+    
+  }
+
+.navbar-brand{
+  font-size: medium;
+  font-weight: bold;
+}
+.custom-carousel img {
+    height: 100%; 
+    object-fit: cover; 
+  } 
+  .carousel-caption{
+    top: 50%;
+  }
+ .salecont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%; 
+    max-width: 800px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #721c24;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+  } 
+  .salecont img {
+    max-width: 100%; 
+    height: auto; 
+    transition: transform 0.4s ease;
+}
+
+.salecont a.btn {
+  margin-top: 10px; 
+  align-self: center;
+}
+.salecont img:hover {
+  animation: hoversale 0.4s linear forwards;
+  object-fit: cover; 
+}
+
+@keyframes hoversale {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.08); 
+  }
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+  }
+  .card {
+    width: 25rem; 
+    height: 450px;
+    min-height: 350px; 
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card img {
+    height: 250px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+  }
+  .card img:hover {
+    animation: hovereffect 0.4s linear forwards;
+}
+
+@keyframes hovereffect {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1); 
+    }
+}

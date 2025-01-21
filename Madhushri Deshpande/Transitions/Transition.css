@@ -1,0 +1,33 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: black 3px solid;
+    transition: all 0.5s ease;
+    position: relative;
+    top: 100px;
+  
+}
+
+/* Method : Using CSS Animation */
+.box:hover {
+    animation: hoverEffect 0.5s forwards;
+  } 
+  
+   @keyframes hoverEffect {
+    from {
+      background-color: red;
+      border-color: black;
+      transform: translateX(0) scale(1); 
+    }
+    to {
+      background-color: yellow;
+      border-color: red; 
+      transform: translateX(900px) scale(2.1); 
+    }
+}  
+
+
+
+
+

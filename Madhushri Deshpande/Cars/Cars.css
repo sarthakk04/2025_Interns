@@ -1,0 +1,60 @@
+.container{
+    background-color: rgb(65, 64, 64);
+}
+#Car1{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: Car1 4.5s forwards;
+}
+@keyframes Car1{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1203px;
+    }
+    
+}
+#Car2{
+
+    position: absolute;
+    top: 230px;
+    left: -10px;
+    animation: Car2 4.5s forwards;
+    animation-delay:4.5s;
+}
+@keyframes Car2{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1171px;
+    }
+    
+}
+#Car3{
+    animation: Car3 4.5s forwards;
+    animation-delay: 9s;
+    position: absolute;
+    top: 480px;
+    left: 0px;
+}
+@keyframes Car3{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1186px;
+    }
+    
+}
+#finishline{
+    height: 100%;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 1497px;
+    background-color: rgb(230, 227, 227);
+}
