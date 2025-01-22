@@ -1,0 +1,26 @@
+Day-3
+Date: [22/01/2025]
+Time of Arrival: [Insert time of arrival]
+Time of Departure: [Insert time of departure]
+Department / Division: Information Technology
+Name of HOD / Supervisor: Mrs. Niranjan Bhale
+E-mail ID: [Insert HOD’s email]
+
+Main Points of the Day:
+
+Studied Hosting Websites Using Vercel:
+Learned the basics of deploying websites using Vercel.
+Set up an account on Vercel and explored the user interface.
+Followed tutorials to link a GitHub repository with Vercel for automatic deployments.
+
+Exploring Deployment Steps:
+Successfully deployed a basic HTML site to Vercel.
+Learned about the deployment process, including domain setup and managing build settings.
+
+Gained Hands-On Experience:
+Created a small project and deployed it to test the workflow.
+Experienced troubleshooting issues related to deployment, such as setting up project configurations.
+
+Feedback and Guidance:
+Received feedback on the deployment process from Mrs. Niranjan Bhale.
+Discussed best practices for website hosting and management on Vercel.
